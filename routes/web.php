@@ -85,6 +85,8 @@ Route::controller(AllotmentsController::class)->group(function(){
 Route::controller(InvoiceController::class)->group(function(){
     Route::get('/superadmin/invoice', 'index')->name('invoice.index');
     Route::get('/superadmin/invoice/create', 'create')->name('invoice.create');
+    Route::get('/get-flats/{blockId}',  'getFlats');
+
 });
 
 

@@ -1,4 +1,4 @@
-<h6 class="mb-0 text-uppercase">Manage Allotments</h6>
+<h6 class="mb-0 text-uppercase">Manage Invoice</h6>
 <hr>
 <div class="container mt-4">
     <div class="table-responsive">
@@ -9,7 +9,8 @@
                     <th>Block</th>
                     <th>Flat</th>
                     <th>Owner Name</th>
-                    <th>Owner Call</th>
+                    <th>Owner Contact</th>
+                    <th>Total Amount</th>
                     <th>Action</th>
                 </tr>
             </thead>
@@ -25,6 +26,7 @@
                     <td>101</td>
                     <td>Ali Muammad</td>
                     <td>03312187411</td>
+                    <td>200000</td>
                     
                     <td>
                         <a href="#" class="edit-btn"

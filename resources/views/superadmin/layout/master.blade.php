@@ -121,6 +121,20 @@
 					</ul>
 				</li>
 
+				<li>
+					<a href="javascript:;" class="has-arrow">
+						<div class="parent-icon"><i class="bx bx-category"></i>
+						</div>
+						<div class="menu-title">Invoice</div>
+					</a>
+					<ul>
+						<li> <a href="{{route('invoice.create')}}"><i class='bx bx-radio-circle'></i>Add Invoice</a>
+						</li>
+						<li> <a href="{{route('invoice.index')}}"><i class='bx bx-radio-circle'></i>Manage Invoice</a>
+						</li>
+					</ul>
+				</li>
+
                 <li>
 					<a href="javascript:;" class="has-arrow">
 						<div class="parent-icon"><i class="bx bx-category"></i>
