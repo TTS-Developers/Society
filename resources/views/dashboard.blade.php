@@ -1,4 +1,4 @@
-@extends('layout.master')
+@extends('superadmin.layout.master')
 @section('page-title')
 Dashboard
 @endsection
@@ -30,7 +30,7 @@ Dashboard
                         <div class="d-flex align-items-center">
                             <div>
                                 <p class="mb-0">Flat On Rent & Sale</p>
-                                <h4 class="my-1">100k</h4>
+                                <h4 class="my-1">100</h4>
                                 <p class="mb-0 font-13"><i class='bx bxs-up-arrow align-middle'></i>14% Since last Month</p>
                             </div>
                             <div class="widgets-icons ms-auto"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-bank" viewBox="0 0 16 16">
@@ -48,7 +48,7 @@ Dashboard
                         <div class="d-flex align-items-center">
                             <div>
                                 <p class="mb-0">Flat Available</p>
-                                <h4 class="my-1">60K</h4>
+                                <h4 class="my-1">300</h4>
                                 <p class="mb-0 font-13"><i class='bx bxs-down-arrow align-middle'></i>50% Flat Available</p>
                             </div>
                             <div class="widgets-icons ms-auto"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-bank" viewBox="0 0 16 16">
