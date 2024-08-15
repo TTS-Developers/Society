@@ -86,6 +86,7 @@ Route::controller(InvoiceController::class)->group(function(){
     Route::get('/superadmin/invoice', 'index')->name('invoice.index');
     Route::get('/superadmin/invoice/create', 'create')->name('invoice.create');
     Route::POST('/invoice/create', 'store')->name('invoice.store');
+    Route::get('invoice/{id}',  'showInvoice')->name('invoice.show');
     Route::get('/get-flats/{blockId}',  'getFlats');
 
 });
@@ -93,6 +94,7 @@ Route::controller(InvoiceController::class)->group(function(){
 
 Route::controller(MainController::class)->group(function(){
     Route::get('user/dashboard', 'index')->name('user.dashboard');
+
 });
 
 
